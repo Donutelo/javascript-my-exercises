@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "jest": "^30.5.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.prod.cjs",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "deploy": "npm run build && gh-pages -d dist",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  }
+}
