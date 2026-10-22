@@ -1,4 +1,4 @@
-# Exercise 5 - pascal
+# Exercise 5 - Pascal
 
 The pascal's triangle is modelled as follows:
 - The first row is `1`.
